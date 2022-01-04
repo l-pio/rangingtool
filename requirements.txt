@@ -1,0 +1,8 @@
+#dracalvcp
+#mmwranging
+numpy
+pyqt5
+scipy
+setuptools
+twopilabs-sense-x1000
+pyqtgraph
