@@ -103,7 +103,7 @@ class BackgroundProcess(QtCore.QObject):
         """Set approximate model for near-field correction."""
         if self._proc is not None:
             self.set_proc_attribute_signal.emit('nearfield_correction',
-                                                {'mode': 'AM', 'd1': d1, 'd2': d2, 'rtt_offset': 500E-12})
+                                                {'mode': 'AM2', 'd1': d1, 'd2': d2, 'rtt_offset': 500E-12})
 
     def set_nfc_pm(self, a_tot, r_off):
         """Set parametric model for near-field correction."""
